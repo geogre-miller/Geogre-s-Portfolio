@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
+import project2 from "../assets/projects/landing_page.png";
+import project3 from "../assets/projects/virtualR.png";
 import project4 from "../assets/projects/project-4.webp";
 
 export const HERO_CONTENT = `I am an enthusiastic front-end developer focused on building efficient and scalable web applications. With a solid foundation in ReactJS and related technologies, I aim to apply my growing skills in real-world projects. My goal is to contribute to impactful solutions that enhance user experiences while learning and growing within a dynamic team environment.`;
@@ -44,21 +44,21 @@ export const PROJECTS = [
     image: project1,
     description:
       "A web platform connecting IT professionals with job opportunities, featuring dynamic job listings and management.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "JSON Server"],
+    technologies: ["HTML", "CSS", "ReactJS", "Node.js", "JSON Server"],
   },
   {
     title: "Restaurant Landing Page",
     image: project2,
     description:
       "A sleek, interactive website for a restaurant with smooth animations and engaging UI/UX design.",
-    technologies: ["HTML", "CSS", "React"],
+    technologies: ["HTML", "CSS", "ReactJS"],
   },
   {
     title: "Virtual Build Tools Landing Page",
     image: project3,
     description:
       "A visually appealing landing page for a virtual event, emphasizing animation-driven user interaction.",
-    technologies: ["HTML", "CSS", "React"],
+    technologies: ["HTML", "CSS", "ReactJS"],
   },
   {
     title: "Blogging Platform",
