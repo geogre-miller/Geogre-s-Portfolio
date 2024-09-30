@@ -1,6 +1,7 @@
 import profilePic from "../assets/IMG_0474.jpeg";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
+import resume from "../assets/Xieng Trinh Quang Huy ReactJS Fresher.pdf";
 
 const contanerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -70,7 +71,7 @@ const Hero = () => {
             </motion.p>
             <motion.a
             variants={childVariants}
-              href="/resume.pdf"
+              href={resume}
               target="_blank"
               rel="noopener noreferrer"
               download
