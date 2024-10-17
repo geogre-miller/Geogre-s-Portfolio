@@ -1,8 +1,6 @@
-import { BiLogoPostgresql } from "react-icons/bi";
-import { DiMysql, DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
+import { SiMongodb, SiPrisma } from "react-icons/si";
 import { TbBrandNextjs, TbSql } from "react-icons/tb";
 import { motion } from "framer-motion";
 
@@ -90,6 +88,14 @@ const Technologies = () => {
           className="p-4"
         >
           <TbSql className="text-7xl text-sky-700"></TbSql>
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(4)}
+          className="p-4"
+        >
+          <SiPrisma className="text-7xl text-sky-700"></SiPrisma>
         </motion.div>
       </motion.div>
     </div>

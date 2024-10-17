@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/landing_page.png";
-import project3 from "../assets/projects/virtualR.png";
-import project4 from "../assets/projects/project-4.webp";
+import project1 from "../assets/projects/Onboarding_Airbnb.mp4.mp4-screenshot-.jpg";
+import project2 from "../assets/projects/Screenshot 2024-10-17 154331.png";
+import project3 from "../assets/projects/landing_page.png";
+import project4 from "../assets/projects/virtualR.png";
 
 export const HERO_CONTENT = `I am an enthusiastic front-end developer focused on building efficient and scalable web applications. With a solid foundation in ReactJS and related technologies, I aim to apply my growing skills in real-world projects. My goal is to contribute to impactful solutions that enhance user experiences while learning and growing within a dynamic team environment.`;
 
@@ -40,32 +40,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "IT Jobs Platform - TechHire",
+    title: "Airbnb Clone",
     image: project1,
     description:
+      "A user-friendly platform for booking vacation rentals, offering dynamic property listings and seamless reservation management for both guests and hosts.",
+    technologies: ["NextJS", "Tailwind","Supabase", "Prisma",],
+  },
+  {
+    title: "IT Jobs Platform - TechHire",
+    image: project2,
+    description:
       "A web platform connecting IT professionals with job opportunities, featuring dynamic job listings and management.",
-    technologies: ["HTML", "CSS", "ReactJS", "Node.js", "JSON Server"],
+    technologies: ["ReactJS","Tailwind", "NodeJS", "JSON Server"],
   },
   {
     title: "Restaurant Landing Page",
-    image: project2,
+    image: project3,
     description:
       "A sleek, interactive website for a restaurant with smooth animations and engaging UI/UX design.",
-    technologies: ["HTML", "CSS", "ReactJS"],
+    technologies: [ "ReactJS", "Tailwind"],
   },
   {
     title: "Virtual Build Tools Landing Page",
-    image: project3,
-    description:
-      "A visually appealing landing page for a virtual event, emphasizing animation-driven user interaction.",
-    technologies: ["HTML", "CSS", "ReactJS"],
-  },
-  {
-    title: "Blogging Platform",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A visually appealing landing page for a virtual event, emphasizing animation-driven user interaction.",
+    technologies: [ "ReactJS", "Tailwind"],
   },
 ];
 
