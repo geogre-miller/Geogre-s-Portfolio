@@ -1,6 +1,6 @@
 import { FaNodeJs } from "react-icons/fa";
-import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb, SiPrisma } from "react-icons/si";
+import { RiReactjsLine, RiSupabaseFill } from "react-icons/ri";
+import { SiMongodb, SiPrisma, SiSupabase } from "react-icons/si";
 import { TbBrandNextjs, TbSql } from "react-icons/tb";
 import { motion } from "framer-motion";
 
@@ -95,7 +95,7 @@ const Technologies = () => {
           variants={iconVariants(4)}
           className="p-4"
         >
-          <SiPrisma className="text-7xl text-sky-700"></SiPrisma>
+          <RiSupabaseFill className="text-7xl text-sky-700"></RiSupabaseFill>
         </motion.div>
       </motion.div>
     </div>

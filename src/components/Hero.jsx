@@ -1,7 +1,7 @@
-import profilePic from "../assets/IMG_0474.jpeg";
+import profilePic from "../assets/profilepic.jpg";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
-import resume from "../assets/Xieng Trinh Quang Huy ReactJS Fresher.pdf";
+import resume from "../assets/Xieng Trinh Quang Huy Full-stack Developer.pdf";
 
 const contanerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="flex justify-center lg:p-8">
             <motion.img
               src={profilePic}
-              alt="Geogre Miller" // Corrected name to match the profile picture
+              alt="Geogre Miller"
               className="border border-stone-900 rounded-3xl"
               width={450}
               height={450}
@@ -70,13 +70,13 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p>
             <motion.a
-            variants={childVariants}
+              variants={childVariants}
               href={resume}
               target="_blank"
               rel="noopener noreferrer"
               download
               className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10 hover:bg-stone-900 hover:text-white transition-colors duration-300"
-              >
+            >
               Download Resume
             </motion.a>
           </motion.div>
