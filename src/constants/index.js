@@ -2,8 +2,8 @@ import { link } from "framer-motion/client";
 import project1 from "../assets/projects/Onboarding_Airbnb.mp4.mp4-screenshot-.jpg";
 import project2 from "../assets/projects/Screenshot 2024-10-17 154331.png";
 import project3 from "../assets/projects/landing_page.png";
-import project4 from "../assets/projects/virtualR.png";
-
+import project4 from "../assets/projects/vinacen.png";
+import project5 from "../assets/projects/virtualR.png";
 export const HERO_CONTENT = `I am an enthusiastic front-end developer focused on building efficient and scalable web applications. With a solid foundation in ReactJS and related technologies, I aim to apply my growing skills in real-world projects. My goal is to contribute to impactful solutions that enhance user experiences while learning and growing within a dynamic team environment.`;
 
 export const ABOUT_TEXT = `I am an enthusiastic front-end developer focused on building efficient and scalable web applications. With a solid foundation in ReactJS and related technologies, I aim to apply my growing skills in real-world projects. My goal is to contribute to impactful solutions that enhance user experiences while learning and growing within a dynamic team environment.`;
@@ -54,7 +54,7 @@ export const PROJECTS = [
     description:
       "A dynamic and visually captivating website showcasing 3D ceilings and walls products, designed to revolutionize interior design presentation. The platform combines sleek animations with an intuitive UI/UX to leave a lasting impression.",
     technologies: ["ReactJS", "Tailwind", "Supabase"],
-    link: "https://virtual-tools.vercel.app/",
+    // link: "https://virtual-tools.vercel.app/",
   },
   {
     title: "IT Jobs Platform - TechHire",
@@ -71,6 +71,14 @@ export const PROJECTS = [
       "A sleek, interactive website for a restaurant with smooth animations and engaging UI/UX design.",
     technologies: ["ReactJS", "Tailwind"],
     link: "https://restaura-landing-page-cyan.vercel.app/",
+  },
+  {
+    title: "VirtualR Landing Page",
+    image: project5,
+    description:
+      "A clean, modern, and trustworthy design that reflects the innovation and efficiency of the virtual tools. The visual identity will aim to build immediate credibility.",
+    technologies: ["ReactJS", "Tailwind"],
+    link: "https://virtual-tools.vercel.app/",
   },
 ];
 
