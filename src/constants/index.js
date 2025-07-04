@@ -54,7 +54,7 @@ export const PROJECTS = [
     description:
       "A dynamic and visually captivating website showcasing 3D ceilings and walls products, designed to revolutionize interior design presentation. The platform combines sleek animations with an intuitive UI/UX to leave a lasting impression.",
     technologies: ["ReactJS", "Tailwind", "Supabase"],
-    // link: "https://virtual-tools.vercel.app/",
+    link: "https://vina-cen.vercel.app/",
   },
   {
     title: "IT Jobs Platform - TechHire",
