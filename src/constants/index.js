@@ -49,7 +49,7 @@ export const PROJECTS = [
     link: "https://airbnb-clone-steel.vercel.app/",
   },
   {
-    title: "Vinacen Furniture Showcase",
+    title: "Vinacen 3D Panel Product Showcase",
     image: project4,
     description:
       "A dynamic and visually captivating website showcasing 3D ceilings and walls products, designed to revolutionize interior design presentation. The platform combines sleek animations with an intuitive UI/UX to leave a lasting impression.",
