@@ -10,10 +10,17 @@ export const ABOUT_TEXT = `I am an enthusiastic front-end developer focused on b
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "December 2024 - June 2025 ",
     role: "Technical Support",
     company: "Riovina Technology Company",
     description: `Provided technical support, resolved system and website issues, managed software updates, optimized performance, and ensured data security.`,
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+  },
+  {
+    year: "August 2025 - Present ",
+    role: "Front-end Developer",
+    company: "STI Solutions",
+    description: `Developed and maintained web applications, resolved UI issues, improved performance, managed updates, and ensured data security.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   // {
