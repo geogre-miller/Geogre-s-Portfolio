@@ -1,8 +1,7 @@
-import { link } from "framer-motion/client";
-import project1 from "../assets/projects/Onboarding_Airbnb.mp4.mp4-screenshot-.jpg";
-import project2 from "../assets/projects/Screenshot 2024-10-17 154331.png";
+import project1 from "../assets/projects/gfi.png";
+import project2 from "../assets/projects/vinacen.png";
 import project3 from "../assets/projects/landing_page.png";
-import project4 from "../assets/projects/vinacen.png";
+import project4 from "../assets/projects/openedu.png";
 import project5 from "../assets/projects/virtualR.png";
 export const HERO_CONTENT = `I am an enthusiastic front-end developer focused on building efficient and scalable web applications. With a solid foundation in ReactJS and related technologies, I aim to apply my growing skills in real-world projects. My goal is to contribute to impactful solutions that enhance user experiences while learning and growing within a dynamic team environment.`;
 
@@ -17,7 +16,7 @@ export const EXPERIENCES = [
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
-    year: "August 2025 - Present ",
+    year: "June 2025 - Present ",
     role: "Front-end Developer",
     company: "STI Solutions",
     description: `Developed and maintained web applications, resolved UI issues, improved performance, managed updates, and ensured data security.`,
@@ -48,35 +47,35 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Airbnb Clone",
+    title: "GFI Crypto Trading Platform",
     image: project1,
     description:
-      "A user-friendly platform for booking vacation rentals, offering dynamic property listings and seamless reservation management for both guests and hosts.",
-    technologies: ["NextJS", "Tailwind", "Supabase", "Prisma"],
-    link: "https://airbnb-clone-steel.vercel.app/",
+       "A modern crypto trading platform with market insights, portfolio tracking, and seamless transaction management.",
+    technologies: ["NextJS", "Tailwind", "MongoDB", "NodeJS"],
+    link: "https://gfiresearch.net/",
+  },
+  {
+    title: "OpenEdu Online Learning Platform",
+    image: project4,
+    description:
+      "A web platform connecting IT professionals with job opportunities, featuring dynamic job listings and management.",
+    technologies: ["NextJS", "Tailwind", "Framer Motion", "NodeJS"],
+    link: "https://openedudev.net/vi",
   },
   {
     title: "Vinacen 3D Panel Product Showcase",
-    image: project4,
+    image: project2,
     description:
       "A dynamic and visually captivating website showcasing 3D ceilings and walls products, designed to revolutionize interior design presentation. The platform combines sleek animations with an intuitive UI/UX to leave a lasting impression.",
     technologies: ["ReactJS", "Tailwind", "Supabase"],
     link: "https://vina-cen.vercel.app/",
   },
   {
-    title: "IT Jobs Platform - TechHire",
-    image: project2,
-    description:
-      "A web platform connecting IT professionals with job opportunities, featuring dynamic job listings and management.",
-    technologies: ["ReactJS", "Tailwind", "NodeJS", "JSON Server"],
-    link: "https://tech-hire-lovat.vercel.app/",
-  },
-  {
     title: "Restaurant Landing Page",
     image: project3,
     description:
       "A sleek, interactive website for a restaurant with smooth animations and engaging UI/UX design.",
-    technologies: ["ReactJS", "Tailwind"],
+    technologies: ["ReactJS", "Tailwind", "Framer Motion"],
     link: "https://restaura-landing-page-cyan.vercel.app/",
   },
   {
@@ -84,7 +83,7 @@ export const PROJECTS = [
     image: project5,
     description:
       "A clean, modern, and trustworthy design that reflects the innovation and efficiency of the virtual tools. The visual identity will aim to build immediate credibility.",
-    technologies: ["ReactJS", "Tailwind"],
+    technologies: ["ReactJS", "Tailwind", "Framer Motion"],
     link: "https://virtual-tools.vercel.app/",
   },
 ];

@@ -20,8 +20,8 @@ function App() {
           <Navbar></Navbar>
           <Hero></Hero>
           <Technologies></Technologies>
-          <Projects></Projects>
           <Experience></Experience>
+          <Projects></Projects>
           <Contact />
         </div>
       </div>
