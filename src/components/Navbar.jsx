@@ -1,5 +1,18 @@
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import logo from "../assets/Geogre.svg";
+
+const handleSectionClick = (event, sectionId) => {
+  event.preventDefault();
+  const section = document.querySelector(sectionId);
+
+  if (!section) {
+    return;
+  }
+
+  section.scrollIntoView({ behavior: "smooth", block: "start" });
+  window.history.pushState(null, "", sectionId);
+};
+
 const Navbar = () => {
   return (
     <>
@@ -15,7 +28,30 @@ const Navbar = () => {
             />
           </a>
         </div>
-        <div className="m-8 flex items-center justify-center gap-4 text-2xl ">
+        <div className="hidden items-center gap-6 text-sm font-medium text-stone-300 md:flex">
+          <a
+            href="#skills"
+            onClick={(event) => handleSectionClick(event, "#skills")}
+            className="hover:text-cyan-200"
+          >
+            Skills
+          </a>
+          <a
+            href="#experience"
+            onClick={(event) => handleSectionClick(event, "#experience")}
+            className="hover:text-cyan-200"
+          >
+            Experience
+          </a>
+          <a
+            href="#projects"
+            onClick={(event) => handleSectionClick(event, "#projects")}
+            className="hover:text-cyan-200"
+          >
+            Projects
+          </a>
+        </div>
+        <div className="flex items-center justify-center gap-4 text-2xl">
           <a
             href="https://www.linkedin.com/in/geogre-miller-6880b3299/"
             target="_blank"
@@ -48,7 +84,6 @@ const Navbar = () => {
           >
             <FaFacebook></FaFacebook>
           </a>
-          
         </div>
       </nav>
     </>

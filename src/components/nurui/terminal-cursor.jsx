@@ -1,8 +1,11 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
+
+const chars = "01ABCDEFGHIJKLMNOPQRSTUVWXYZ#$@";
+
 const TerminalCursor = () => {
   const canvasRef = useRef(null);
-  const chars = "01ABCDEFGHIJKLMNOPQRSTUVWXYZ#$@";
+
   useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");

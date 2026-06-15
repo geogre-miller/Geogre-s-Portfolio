@@ -16,7 +16,7 @@ function App() {
             <div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_500px_at_50%_200px,#3e3e3e,transparent)]"></div>
           </div>
         </div>
-        <div className="container mx-auto px-8">
+        <div className="container mx-auto px-5 sm:px-8">
           <Navbar></Navbar>
           <Hero></Hero>
           <Technologies></Technologies>
