@@ -104,7 +104,7 @@ export const PROJECTS = [
     link: "https://vina-cen.vercel.app/",
   },
   {
-    title: "Btrade C2C Marketplace",
+    title: "BTrade C2C Marketplace",
     role: "Full-stack Developer",
     image: project7,
     description:

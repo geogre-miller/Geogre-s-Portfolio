@@ -1,7 +1,7 @@
 import profilePic from "../assets/profilepic.jpg";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
-import resume from "../assets/Xieng Trinh Quang Huy Full-stack Developer.pdf";
+import resume from "../assets/Xieng Trinh Quang Huy Software Developer.pdf";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
