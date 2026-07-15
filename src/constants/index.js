@@ -112,7 +112,7 @@ export const PROJECTS = [
     impact:
       "Built a community marketplace platform that helps users discover nearby products and services, connect with local buyers and sellers, and facilitate trusted peer-to-peer transactions.",
     technologies: ["React.js", "Tailwind CSS", "TypeScript", "Framer Motion"],
-    link: "https://restaura-landing-page-cyan.vercel.app/",
+    link: "https://btrade.io.vn/",
   },
   {
     title: "Restaurant Landing Page",
